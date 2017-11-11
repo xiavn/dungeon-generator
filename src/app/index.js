@@ -1,7 +1,6 @@
 import React from 'react'
+import Dungeon from 'dungeon'
 
-const App = () => {
-    return <div>App</div>
-}
+const App = () => <Dungeon />
 
 export default App
