@@ -1,6 +1,6 @@
-import React from 'react'
-import Dungeon from 'dungeon'
+import React from "react";
+import Dungeon from "dungeon";
 
-const App = () => <Dungeon />
+const App = () => <Dungeon />;
 
-export default App
+export default App;

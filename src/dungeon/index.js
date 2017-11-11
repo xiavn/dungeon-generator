@@ -1,5 +1,5 @@
-import React from 'react'
+import React from "react";
 
-const Dungeon = () => <div>Dungeon</div>
+const Dungeon = () => <div>Dungeon</div>;
 
-export default Dungeon
+export default Dungeon;

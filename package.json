@@ -22,5 +22,9 @@
     "eject": "NODE_PATH=src/ react-scripts eject",
     "build-css": "node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/",
     "watch-css": "npm run build-css && node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/ --watch --recursive"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^2.7.0",
+    "prettier": "1.8.2"
   }
 }
