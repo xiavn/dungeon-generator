@@ -1,5 +1,3 @@
-import React from "react";
+import Dungeon from "./components";
 
-const Dungeon = () => <div>Dungeon</div>;
-
-export default Dungeon;
+export { Dungeon };

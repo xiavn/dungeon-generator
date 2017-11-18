@@ -1,0 +1,23 @@
+.map {
+	display: flex;
+	width: 30%;
+	//padding-bottom: 30%;
+	border: 1px solid black;
+	&:after {
+		content: "";
+		display: block;
+		padding-bottom: 100%;
+	}
+	.column {
+		display: flex;
+		flex-flow: column;
+		flex: 1 0 auto;
+	}
+	.cell {
+		flex: 1 0 auto;
+		border: 1px solid black;
+		&.rock {
+			background-color: grey;
+		}
+	}
+}

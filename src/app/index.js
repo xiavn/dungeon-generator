@@ -1,5 +1,5 @@
 import React from "react";
-import Dungeon from "dungeon";
+import { Dungeon } from "dungeon";
 
 const App = () => <Dungeon />;
 
