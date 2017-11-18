@@ -1,4 +1,5 @@
 import React from "react";
+import { arrayOf, object } from "prop-types";
 import Cell from "./cell";
 
 const Column = ({ cells }) => {
@@ -7,6 +8,10 @@ const Column = ({ cells }) => {
 			{cells.map((cell, i) => <Cell key={i} type="rock" />)}
 		</div>
 	);
+};
+
+Column.propTypes = {
+	cells: arrayOf(object).isRequired,
 };
 
 export default Column;

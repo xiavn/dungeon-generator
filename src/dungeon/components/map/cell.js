@@ -1,4 +1,5 @@
 import React from "react";
+import { oneOf } from "prop-types";
 
 const Cell = ({ type }) => {
 	return (
@@ -6,6 +7,10 @@ const Cell = ({ type }) => {
 			<div />
 		</div>
 	);
+};
+
+Cell.propTypes = {
+	type: oneOf(["rock"]).isRequired,
 };
 
 export default Cell;
